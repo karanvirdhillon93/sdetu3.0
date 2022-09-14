@@ -10,6 +10,8 @@ public class Basic {
 		System.out.println(cities[2]);
 		System.out.println(cities[3]);
 		
+		
+		
 
 		
 		//Declare array
