@@ -1,0 +1,15 @@
+package content;
+
+public class NumbersCalc {
+	public static void main(String[] args) { 
+		System.out.println("System is starting");
+		printName();
+	}
+		static void printName() {
+			System.out.println("Karanvir");
+		}
+		//addNumbers();
+		//multiplyNumbers();
+		
+	
+}

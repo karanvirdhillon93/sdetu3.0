@@ -1,0 +1,13 @@
+package content;
+
+public class FibApp {
+	public static void main(String[]args) {
+		//defined by the sum of the two previous numbers
+		//fib(0)==0
+		//fib(1)==1
+		//fib(2)==fib(1)+fib(0)
+		//etc..
+		
+		
+	}
+}

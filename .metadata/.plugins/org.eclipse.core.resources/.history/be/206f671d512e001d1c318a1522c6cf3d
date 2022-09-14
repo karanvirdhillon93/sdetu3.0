@@ -1,0 +1,14 @@
+package content;
+
+public class Basic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] cities= {"New york","Sf","Miami","Dallas"};
+		System.out.println(cities[0]);
+		System.out.println(cities[1]);
+		System.out.println(cities[2]);
+		System.out.println(cities[3]);
+	}
+
+}

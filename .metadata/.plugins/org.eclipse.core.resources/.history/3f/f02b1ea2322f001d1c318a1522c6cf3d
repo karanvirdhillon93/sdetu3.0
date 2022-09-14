@@ -1,0 +1,15 @@
+package content;
+
+public class CryptoApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CryptoAccount c1=new CryptoAccount();
+		
+		CryptoAccount c2=new CryptoAccount("ETH");
+		
+		CryptoAccount c3=new CryptoAccount("BIT");
+
+	}
+
+}

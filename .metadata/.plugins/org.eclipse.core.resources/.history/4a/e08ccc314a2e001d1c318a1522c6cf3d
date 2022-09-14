@@ -1,0 +1,13 @@
+package content;
+
+public class SalaryCalc {
+	public static void main(String[] args) {
+		//Lets create a variable to define our career
+		
+		//Declare variable
+		String career;
+		System.out.print(career);
+		//Compute our anual salary
+		//rate*hours*weeks
+	}
+}

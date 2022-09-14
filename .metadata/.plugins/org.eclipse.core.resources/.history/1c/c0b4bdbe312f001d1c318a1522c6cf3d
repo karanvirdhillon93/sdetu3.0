@@ -1,0 +1,24 @@
+package content;
+
+public class CryptoAccount {
+	static final String walletNumber="123";
+	String accountNumber;
+	String Name;
+	String SSN;
+	String accountType;
+	
+	CryptoAccount(){
+		System.out.print("Crypto Account created");
+	}
+	
+	CryptoAccount(String accountType){
+		System.out.println("Crypto Account created with type"+accountType);
+	}
+	
+	CryptoAccount(String accountType,int deposit){
+		System.out.println("Crypto account created with type"+accountType+" Deposit of:"+deposit);
+	}
+	
+	
+
+}

@@ -1,0 +1,29 @@
+package content;
+
+public class Assignment1 {
+
+	public static void main(String[] args) {
+		// Write a function that takes a value n returns the sum of numbers 1 to n
+
+		System.out.print(sum(4));
+		/*
+		 * Write 3 functions that take an array as a parameter and return the minimum, average, and maximum values of that array.
+Hint: this should be static functions with a return type of the same data type as the array declaration.
+		 */
+
+	}
+	
+	public static int sum(int n) {
+		int count=0;
+		for (int i=0;i<=n;i++) {
+			count=count+i;
+		}
+		return count;
+	}
+	
+	public static int[](int values[]) {
+		int name[]= {1};
+		return name[];
+	}
+
+}

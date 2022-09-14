@@ -1,0 +1,15 @@
+package content;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String bookTitle="Lord of the rings";
+		String wordChoice="ring";
+		if (bookTitle.contains("ring")){
+			System.out.print("Book contains the word ring"+wordChoice);
+		}
+
+	}
+
+}

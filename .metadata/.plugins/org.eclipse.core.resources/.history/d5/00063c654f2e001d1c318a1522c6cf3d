@@ -1,0 +1,23 @@
+package content;
+
+public class NumbersCalc {
+	
+	public static void main(String[] args) { 
+		System.out.println("System is starting");
+		printName();
+		int num=5,numb=10;
+		print(addNumbers(num,numb));
+	}
+	
+	static void printName() {
+		System.out.println("Karanvir");
+	}
+	static void addNumbers(int numa, int numb) {
+		//This func will add 2 numbers..
+		return numa+numb
+		
+	}
+		//multiplyNumbers();
+		
+	
+}

@@ -1,0 +1,39 @@
+package content;
+
+public class CryptoAccount {
+	static final String walletNumber="123";
+	String accountNumber;
+	String Name;
+	String SSN;
+	String accountType;
+	double balance=0;
+	
+	CryptoAccount(){
+		System.out.println("Crypto Account created");
+	}
+	
+	CryptoAccount(String accountType){
+		System.out.println("Crypto Account created with type"+accountType);
+	}
+	
+	CryptoAccount(String accountType,double deposit){
+		System.out.println("Crypto account created with type"+accountType+" Deposit of:"+deposit);
+		String msg="";
+		if(deposit<=0) {
+			msg="err you must deposit more than 0";
+		}else {
+			msg="Thanks for your depo";
+		}
+		System.out.println(msg+"your balance is");
+		balance+=deposit;
+		checkBalance();
+		accountType=accountType;
+	}
+	
+	void checkBalance() {
+		System.out.println("your balance"+accountType+""+balance);
+	}
+	
+	
+
+}

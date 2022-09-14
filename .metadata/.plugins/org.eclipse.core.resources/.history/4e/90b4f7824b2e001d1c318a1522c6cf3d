@@ -1,0 +1,23 @@
+package content;
+
+public class Weather {
+	public static void main(String[] args) {
+		/*This program will give a suggestion of what to wear
+		 * based on the temp
+		 */
+		
+		int temp;
+		temp=20;
+		//Below than 80
+		if (temp>80){
+			System.out.print("its pleasant wear a t-shirt");
+		}
+		//Below than 60
+		else if (temp>60) {
+			System.out.print("Its a little cooler, wear a long sleeve");
+		}
+		else {
+			System.out.print("Its a cold day bring a sweater");
+		}
+	}
+}
