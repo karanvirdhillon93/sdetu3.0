@@ -9,6 +9,7 @@ public class Basic {
 		System.out.println(cities[1]);
 		System.out.println(cities[2]);
 		System.out.println(cities[3]);
+		System.out.println("adding");
 		
 
 		
